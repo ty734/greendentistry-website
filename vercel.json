@@ -1,0 +1,1027 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.greendentistryva.com"
+        }
+      ],
+      "destination": "https://greendentistryva.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-sedation-dentistry/",
+      "destination": "/sedation-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/nightlase/",
+      "destination": "/sleep-airway",
+      "permanent": true
+    },
+    {
+      "source": "/airway-centered-dentistry/",
+      "destination": "/sleep-airway",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-va-orthodontics/",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-adult-braces/",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-cosmetic-dentists/",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-dental-implants/",
+      "destination": "/metal-free-implants",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-porcelain-veneers/",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-invisible-braces/",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-emergency-dentist-office/",
+      "destination": "/emergency-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/vivos-system/",
+      "destination": "/sleep-airway",
+      "permanent": true
+    },
+    {
+      "source": "/falls-church-dentists/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-crowns-bridges/",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-dentists-that-accept-delta-dental-insurance/",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/kids-dentist/",
+      "destination": "/pediatric-holistic-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/tmj-treatment/",
+      "destination": "/tmj",
+      "permanent": true
+    },
+    {
+      "source": "/dentists-alexandria-va/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dental-services.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-dentists-that-accept-cigna-insurance/",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-teeth-whitening/",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-dental-restoration/",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-tooth-colored-fillings/",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/sleep-apnea-treatment/",
+      "destination": "/sleep-airway",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-high-tech-dental-office/",
+      "destination": "/technology",
+      "permanent": true
+    },
+    {
+      "source": "/gum-disease/",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/meet-our-team/",
+      "destination": "/meet-the-team",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-dentists-that-accept-humana-insurance/",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/cosmetic-dentist/teeth-whitening",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/dentures/",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/arlington-dentists/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cosmetic-dentist/porcelain-veneers",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/same-day-dentistry/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/receding-gums/",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/dental-services/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-family-dentists/",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/chipped-tooth-repair/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/periodontal-care/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/oral-appliances/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-six-month-braces",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/cosmetic-dentist/tooth-colored-fillings",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/orthodontics/airway-centered-dentistry",
+      "destination": "/sleep-airway",
+      "permanent": true
+    },
+    {
+      "source": "/blog/3-reasons-to-choose-an-eco-friendly-dentist",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/dental-services/general-dental-care/green-dentistry/",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-clear-braces",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-wisdom-teeth-removal",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/sleep-apnea-treatment",
+      "destination": "/sleep-airway",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-power-of-diagnostic-oral-dna-testing",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dental-restoration-through-bonding",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/whats-causing-your-dental-anxiety",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-sedation-dental-care",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/twinlite-periodontal-disease-laser-treatment/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/do-you-have-tmj-disorder-dont-ignore-these-symptoms",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-dental-insurance-plans-accepted/",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-patient-amenities-green-dental",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-dental-checkups/",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-a-cosmetic-dentist-boost-your-career",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/saliva-dna-testing/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/invisalign-faqs",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/cosmetic-dentist/crowns-and-bridges",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/blog/does-chewing-gum-really-prevent-cavities",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/tmj-tmd-treatment",
+      "destination": "/tmj",
+      "permanent": true
+    },
+    {
+      "source": "/blog/six-month-smiles-a-cosmetic-solution-to-braces",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-risks-of-diy-teeth-whitening",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/relief-from-your-sensitive-teeth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-cosmetic-dentistry-right-for-you",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/holistic-dentist-in-alexandria-va",
+      "destination": "/holistic-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/appointment-request",
+      "destination": "/book-exam",
+      "permanent": true
+    },
+    {
+      "source": "/blog/considering-a-change-should-you-replace-your-metal-fillings",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-dental-sealants",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-less-obvious-benefits-of-straight-teeth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-whiter-teeth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-not-so-obvious-setbacks-of-missing-teeth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-your-swimming-pool-safe-for-your-smile",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/specials/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dental-restoration/full-mouth-rehabilitation",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/blog/top-reasons-why-teeth-become-stained-or-yellow",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/financial/",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/dental-wellness-plan/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/toothbrushes-your-questions-answered",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/help-for-receding-gums",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/office-tour/",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-dangers-of-ignoring-tooth-replacement",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/latest-update-with-covid-19",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/employment-application/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/never-worry-about-stained-teeth-again",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/invisalign-orthodontics-fit-lifestyle",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/benefits-dental-fillings",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dealing-with-bad-breath",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-six-month-smiles",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/a-dentist-that-treats-your-entire-family",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/new-patients-forms/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-importance-of-routine-dental-cleanings",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dental-care-and-your-young-child",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-dangers-of-dry-mouth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/protect-your-heart-by-brushing-your-teeth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/remedy-your-dry-mouth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/go-natural-toothpaste",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/accessibility-policy/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/family-dentistry",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-a-necessary-dental-concern",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tooth-pain-relief/",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-key-benefits-of-white-fillings",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/say-cheese-for-a-healthy-smile",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/six-ways-maintain-teeth-whitening-results",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/treatment/jaw-pain-alexandria-va",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/know-facts-sedation-dentistry",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/4/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dental-restoration/dental-implants",
+      "destination": "/metal-free-implants",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gum-recession",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-white-fillings",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/signs-you-have-a-cracked-tooth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/2/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/microscope-evaluation/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reasons-you-should-power-up-your-toothbrush",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-teeth-decay",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-dental-expenses",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-art-of-flossing-a-guide-to-options-and-importance",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-long-term-return-on-your-dental-implants-investment",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-invisalign-right-for-you",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/3-reasons-to-schedule-wisdom-teeth-removal",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-brighter-smile",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-your-knocked-out-tooth-be-saved",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/put-that-old-toothbrush-in-the-trash",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dental-sealants",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/restore-your-smile-with-dental-implants",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emergency-dental-care",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/smoking-a-real-drag-on-your-health",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-tooth-decay",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/dental-checkups",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/gum-disease-treatment",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/blog/3-things-you-need-in-an-emergency-dentist",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-a-partial-denture-right-for-you",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/teeth-whitening-mistakes",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/alexandria-va-teeth-decay",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/07/GREEN-DENTAL-FINANCIAL-POLICY.pdf",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gum-chewing-dental-health",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/choosing-the-right-type-of-dental-filling",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-implant-dentistry",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tiny-treasures-why-taking-care-of-baby-teeth-matters",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-do-cavities-start",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/importance-of-a-good-dental-routine",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/full-mouth-rehabilitation/",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/blog/five-reasons-to-invest-in-veneers",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/qualified-cosmetic-dentistry",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/six-months-to-a-straighter-smile",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wisdom-teeth-removal",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2018/08/itero-element-flex-slide-3-280x225.png",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-dental-hygiene",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-tooth-enamel-loss",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/10/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/07/mRNA-w-logo1-300x241-1.png",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/07/taking-itero-scan.jpeg",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/start-2025-with-a-sparkling-smile-3-reasons-to-schedule-your-dental-cleaning",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/are-porcelain-veneers-right-for-you",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/a-pain-in-the-tooth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/professional-teeth-whitening",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-dental-health-issues",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/14/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/oral-health-and-heart-health-are-they-connected",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-makes-tooth-removal-necessary",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gum-disease-affect-children",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/caring-for-your-toothbrush",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cavity-prevention",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/men-and-oral-health",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-green-dental-care",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/sample-page/24d826396b4925fc23b753375defc4f9/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2018/09/Webp.net-resizeimage.jpg",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2020/12/banner-about-us-1.jpg",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/04/woman-puts-on-invisalign-close-up-on-lips.jpg",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/06/Office-Tour-2.jpg",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/06/slide-4-4c.jpg",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/07/DNA-w-logo1-300x229-1.png",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/07/Guide-1-300x275-1.png",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/2024/07/Itero-scanner.jpeg",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/amenities",
+      "destination": "/patient-information",
+      "permanent": true
+    },
+    {
+      "source": "/we-are-moving",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/dental-restoration/dentures",
+      "destination": "/cosmetic-restorative",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/tooth-pain-relief",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/same-day-dentistry",
+      "destination": "/emergency-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/receding-gums-treatment",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/dentistry/chipped-tooth-repair",
+      "destination": "/holistic-general-dentistry",
+      "permanent": true
+    },
+    {
+      "source": "/blog/5-myths-about-dental-care-debunked",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/a-message-from-your-dentist-about-the-coronavirus",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pregnancy-gingivitis",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-handle-dental-emergencies",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/your-diet-and-your-teeth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dental-restorations",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/your-childs-1st-dental-appointment",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/are-your-teeth-causing-your-pain",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/personalized-dentistry",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-dental-care",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-tooth-decay-treatment",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-oral-health-treatment",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-impacted-teeth",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alexandria-va-teeth-bacteria",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/appointment-request-confirmation/",
+      "destination": "/book-exam",
+      "permanent": true
+    },
+    {
+      "source": "/advanced-high-tech-dental-office-in-alexandria-va-copy/",
+      "destination": "/technology",
+      "permanent": true
+    },
+    {
+      "source": "/orthodontics/porcelain-veneers/",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/orthodontics/tooth-colored-fillings/",
+      "destination": "/clear-aligners",
+      "permanent": true
+    },
+    {
+      "source": "/blog/page/5/",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
