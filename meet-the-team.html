@@ -249,10 +249,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 .mobile-menu .mm-sub .mm-cat{padding-left:16px;font-weight:500}
 .mobile-menu .mm-sub a{padding-left:18px;font-weight:500}
 .mobile-menu .mm-sub .mm-sub a{padding-left:34px;font-weight:400;opacity:.92}
+/* Mobile topbar: hide address + "New patients welcome", center phone at 18px */
+@media(max-width:900px){
+  .topbar .wrap{justify-content:center}
+  .topbar .tb-address,.topbar .tb-welcome{display:none}
+  .topbar .tb-phone{font-size:18px}
+}
 </style>
 <div class="topbar"><div class="wrap">
-  <span>1643 Prince Street, Alexandria, VA 22314 &nbsp;·&nbsp; Steps from King Street Metro</span>
-  <span>New patients welcome &nbsp;·&nbsp; <a href="tel:7035491725">(703) 549-1725</a></span>
+  <span class="tb-address">1643 Prince Street, Alexandria, VA 22314 &nbsp;·&nbsp; Steps from King Street Metro</span>
+  <span class="tb-phone"><span class="tb-welcome">New patients welcome &nbsp;·&nbsp; </span><a href="tel:7035491725">(703) 549-1725</a></span>
 </div></div>
 <header>
   <div class="wrap nav">
