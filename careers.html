@@ -248,6 +248,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 .mobile-menu .mm-sub .mm-cat{padding-left:16px;font-weight:500}
 .mobile-menu .mm-sub a{padding-left:18px;font-weight:500}
 .mobile-menu .mm-sub .mm-sub a{padding-left:34px;font-weight:400;opacity:.92}
+/* Level backgrounds + brand accents so each depth is easy to tell apart */
+.mobile-menu .mm-sub{background:rgba(255,255,255,.06);border-left:3px solid var(--sand)}
+.mobile-menu .mm-sub .mm-sub{background:rgba(255,255,255,.12);border-left:3px solid var(--terra)}
+.mobile-menu .mm-cat.open{color:var(--sand)}
 /* Mobile topbar: hide address + "New patients welcome", center phone at 18px */
 @media(max-width:900px){
   .topbar .wrap{justify-content:center}
