@@ -297,6 +297,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- HEADER:START - universal region from partials/header.html. Edit the partial then run build.py. Do not edit between markers. -->
+<style>
+/* Services submenus — self-contained so it works on every page incl. blog */
+.menu .dropdown li.has-sub{position:relative}
+.menu .dropdown li.has-sub>a{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.menu .dropdown .subcaret{color:var(--sand);font-size:.66em}
+.menu .dropdown li.has-sub:hover>a{background:var(--cream);color:var(--terra)}
+.menu .dropdown li.has-sub:hover>a .subcaret{color:var(--terra)}
+.menu .submenu{position:absolute;top:-11px;left:100%;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 18px 50px rgba(31,59,56,.16);padding:10px;min-width:266px;list-style:none;display:none;flex-direction:column;gap:2px;z-index:70}
+.menu .dropdown li.has-sub:hover>.submenu{display:flex}
+.menu .submenu a{display:block;padding:9px 14px;border-radius:8px;font-size:.92rem;white-space:nowrap;color:var(--ink)}
+.menu .submenu a:hover{background:var(--cream);color:var(--terra)}
+/* Mobile Services accordion */
+.mobile-menu .mm-cat{display:flex;align-items:center;justify-content:space-between;width:100%;background:none;border:0;color:#fff;font:inherit;font-weight:600;text-align:left;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.1);cursor:pointer}
+.mobile-menu .mm-cat .mm-caret{transition:transform .2s;color:var(--sand);font-size:.72em}
+.mobile-menu .mm-cat.open .mm-caret{transform:rotate(180deg)}
+.mobile-menu .mm-sub{display:none}
+.mobile-menu .mm-sub.open{display:block}
+.mobile-menu .mm-sub a{padding-left:16px;font-weight:500}
+</style>
 <div class="topbar"><div class="wrap">
   <span>1643 Prince Street, Alexandria, VA 22314 &nbsp;·&nbsp; Steps from King Street Metro</span>
   <span>New patients welcome &nbsp;·&nbsp; <a href="tel:7035491725">(703) 549-1725</a></span>
@@ -309,25 +328,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </a>
     <ul class="menu">
       <li class="has-dropdown"><a href="#services">Services <span class="caret">&#9662;</span></a>
-        <ul class="dropdown" style="max-height:74vh;overflow-y:auto">
-          <li style="padding:12px 14px 4px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#9aa7a1;font-weight:700">Biological &amp; Holistic</li>
-          <li><a href="holistic-dentistry.html">Holistic &amp; Biological Dentistry</a></li>
-          <li><a href="mercury-removal.html">Safe Mercury Removal (SMART)</a></li>
-          <li><a href="ozone-therapy.html">Ozone Therapy</a></li>
-          <li><a href="oral-dna-testing.html">Oral DNA Testing</a></li>
-          <li><a href="root-canal-prevention.html">Root Canal Prevention</a></li>
-          <li style="padding:12px 14px 4px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#9aa7a1;font-weight:700">Airway &amp; Orthodontics</li>
-          <li><a href="sleep-airway.html">Sleep &amp; Airway</a></li>
-          <li><a href="tmj.html">TMJ Treatment</a></li>
-          <li><a href="clear-aligners.html">Clear Aligners</a></li>
-          <li style="padding:12px 14px 4px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#9aa7a1;font-weight:700">Restorative &amp; Cosmetic</li>
-          <li><a href="metal-free-implants.html">Metal-Free Implants</a></li>
-          <li><a href="cosmetic-restorative.html">Cosmetic &amp; Restorative</a></li>
-          <li style="padding:12px 14px 4px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#9aa7a1;font-weight:700">General &amp; Family</li>
-          <li><a href="holistic-general-dentistry.html">General &amp; Family Dentistry</a></li>
-          <li><a href="pediatric-holistic-dentistry.html">Pediatric Holistic Dentistry</a></li>
-          <li><a href="sedation-dentistry.html">Sedation &amp; Comfort</a></li>
-          <li><a href="emergency-dentistry.html">Emergency Dentistry</a></li>
+        <ul class="dropdown">
+          <li class="has-sub"><a href="#" onclick="return false">Biological &amp; Holistic <span class="subcaret">&#9656;</span></a>
+            <ul class="submenu">
+              <li><a href="holistic-dentistry.html">Holistic &amp; Biological Dentistry</a></li>
+              <li><a href="mercury-removal.html">Safe Mercury Removal (SMART)</a></li>
+              <li><a href="ozone-therapy.html">Ozone Therapy</a></li>
+              <li><a href="oral-dna-testing.html">Oral DNA Testing</a></li>
+              <li><a href="root-canal-prevention.html">Root Canal Prevention</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="#" onclick="return false">Airway &amp; Orthodontics <span class="subcaret">&#9656;</span></a>
+            <ul class="submenu">
+              <li><a href="sleep-airway.html">Sleep &amp; Airway</a></li>
+              <li><a href="tmj.html">TMJ Treatment</a></li>
+              <li><a href="clear-aligners.html">Clear Aligners</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="#" onclick="return false">Restorative &amp; Cosmetic <span class="subcaret">&#9656;</span></a>
+            <ul class="submenu">
+              <li><a href="metal-free-implants.html">Metal-Free Implants</a></li>
+              <li><a href="cosmetic-restorative.html">Cosmetic &amp; Restorative</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="#" onclick="return false">General &amp; Family <span class="subcaret">&#9656;</span></a>
+            <ul class="submenu">
+              <li><a href="holistic-general-dentistry.html">General &amp; Family Dentistry</a></li>
+              <li><a href="pediatric-holistic-dentistry.html">Pediatric Holistic Dentistry</a></li>
+              <li><a href="sedation-dentistry.html">Sedation &amp; Comfort</a></li>
+              <li><a href="emergency-dentistry.html">Emergency Dentistry</a></li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li class="has-dropdown"><a href="why-choose-green-dentistry.html">Why Green Dentistry <span class="caret">&#9662;</span></a>
@@ -356,20 +387,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="mobile-menu" id="mobileMenu">
     <div class="mm-head">Services</div>
-    <a href="holistic-dentistry.html">Holistic &amp; Biological Dentistry</a>
-    <a href="mercury-removal.html">Safe Mercury Removal (SMART)</a>
-    <a href="ozone-therapy.html">Ozone Therapy</a>
-    <a href="oral-dna-testing.html">Oral DNA Testing</a>
-    <a href="root-canal-prevention.html">Root Canal Prevention</a>
-    <a href="sleep-airway.html">Sleep &amp; Airway</a>
-    <a href="tmj.html">TMJ Treatment</a>
-    <a href="clear-aligners.html">Clear Aligners</a>
-    <a href="metal-free-implants.html">Metal-Free Implants</a>
-    <a href="cosmetic-restorative.html">Cosmetic &amp; Restorative</a>
-    <a href="holistic-general-dentistry.html">General &amp; Family Dentistry</a>
-    <a href="pediatric-holistic-dentistry.html">Pediatric Holistic Dentistry</a>
-    <a href="sedation-dentistry.html">Sedation &amp; Comfort</a>
-    <a href="emergency-dentistry.html">Emergency Dentistry</a>
+    <button class="mm-cat" type="button">Biological &amp; Holistic <span class="mm-caret">&#9662;</span></button>
+    <div class="mm-sub">
+      <a href="holistic-dentistry.html">Holistic &amp; Biological Dentistry</a>
+      <a href="mercury-removal.html">Safe Mercury Removal (SMART)</a>
+      <a href="ozone-therapy.html">Ozone Therapy</a>
+      <a href="oral-dna-testing.html">Oral DNA Testing</a>
+      <a href="root-canal-prevention.html">Root Canal Prevention</a>
+    </div>
+    <button class="mm-cat" type="button">Airway &amp; Orthodontics <span class="mm-caret">&#9662;</span></button>
+    <div class="mm-sub">
+      <a href="sleep-airway.html">Sleep &amp; Airway</a>
+      <a href="tmj.html">TMJ Treatment</a>
+      <a href="clear-aligners.html">Clear Aligners</a>
+    </div>
+    <button class="mm-cat" type="button">Restorative &amp; Cosmetic <span class="mm-caret">&#9662;</span></button>
+    <div class="mm-sub">
+      <a href="metal-free-implants.html">Metal-Free Implants</a>
+      <a href="cosmetic-restorative.html">Cosmetic &amp; Restorative</a>
+    </div>
+    <button class="mm-cat" type="button">General &amp; Family <span class="mm-caret">&#9662;</span></button>
+    <div class="mm-sub">
+      <a href="holistic-general-dentistry.html">General &amp; Family Dentistry</a>
+      <a href="pediatric-holistic-dentistry.html">Pediatric Holistic Dentistry</a>
+      <a href="sedation-dentistry.html">Sedation &amp; Comfort</a>
+      <a href="emergency-dentistry.html">Emergency Dentistry</a>
+    </div>
     <div class="mm-head">Why Green Dentistry</div>
     <a href="why-choose-green-dentistry.html">Why Choose Green Dentistry</a>
     <a href="meet-dr-park.html">Meet Dr. Park</a>
@@ -386,6 +429,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="book-exam.html">Book Your Exam</a>
   </div>
 </header>
+<script>
+(function(){
+  document.querySelectorAll('.mobile-menu .mm-cat').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var sub=btn.nextElementSibling;
+      if(!sub||!sub.classList.contains('mm-sub'))return;
+      var open=sub.classList.toggle('open');
+      btn.classList.toggle('open',open);
+    });
+  });
+})();
+</script>
 <!-- HEADER:END -->
 
 <!-- HERO -->
