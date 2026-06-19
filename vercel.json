@@ -999,11 +999,6 @@
       "permanent": true
     },
     {
-      "source": "/appointment-request-confirmation/",
-      "destination": "/book-exam",
-      "permanent": true
-    },
-    {
       "source": "/advanced-high-tech-dental-office-in-alexandria-va-copy/",
       "destination": "/technology",
       "permanent": true
